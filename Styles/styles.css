@@ -15,6 +15,30 @@ html {
     text-align: center;
 }
 
+.sidepanel-container {
+    /*border: 2px solid red;*/
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    background-color: black;
+    opacity: 100%;
+    overflow-x: hidden;
+    transition: 0.5s;
+
+}
+
+.open-button {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+.close-button {
+    position: absolute;
+    top: 0;
+    right: 2px;
+    margin-left: 50px;
+}
+
 /*
 .gif-wrap {
     width: 100%;
