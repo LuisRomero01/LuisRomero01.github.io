@@ -20,7 +20,7 @@ menuButton.addEventListener("click", () =>{
 
 //opens side panel
 function openNav() {
-  document.getElementById("sidepanel").style.width = "250px";
+  document.getElementById("sidepanel").style.width = "200px";
   menuButton.style.opacity = "0%";
   postOne.style.marginLeft = "250px";
   postTwo.style.marginLeft = "250px";
