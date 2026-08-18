@@ -1,5 +1,10 @@
 let menuButton = document.getElementById("open-button")
 let closeButton = document.getElementById("close-button");
+let postOne = document.getElementById("blogPost-one");
+let postTwo = document.getElementById("blogPost-two");
+let postThree = document.getElementById("blogPost-three");
+
+
 let flag = false;
 
 closeButton.addEventListener("click", () =>{
@@ -17,10 +22,19 @@ menuButton.addEventListener("click", () =>{
 function openNav() {
   document.getElementById("sidepanel").style.width = "250px";
   menuButton.style.opacity = "0%";
+  postOne.style.marginLeft = "250px";
+  postTwo.style.marginLeft = "250px";
+  postThree.style.marginLeft = "250px";
+  
+
 }
 
 //closes side panel
 function closeNav() {
   document.getElementById("sidepanel").style.width = "0";
   menuButton.style.opacity = "100%";
+  postOne.style.marginLeft = "40px";
+  postTwo.style.marginLeft = "40px";
+  postThree.style.marginLeft = "40px";
+
 }
