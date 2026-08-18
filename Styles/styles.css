@@ -1,0 +1,53 @@
+html {
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(215, 192, 138);
+}
+
+.websiteTitle {
+    margin: 0;
+    padding: 20px 0;
+    border-bottom: 2px solid black;
+    font-size: 78px;
+    text-shadow: 3px 3px 1px rgb(120, 114, 68);
+    text-align: center;
+}
+
+.gif-wrap {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.giphy-embed {
+    width: 50%;
+    max-width: 700px;
+    height: auto;
+    aspect-ratio: 16 / 9;
+    border: 0;
+    display: block;
+    padding-bottom: 40px;
+}
+
+
+footer {
+    border-top: 2px solid black;
+}
+.footer-top {
+    font-family: 'Times New Roman', Times, serif;
+    color: rgba(22, 6, 6, 0.493);
+    padding-left: 25px;
+}
+.footer-bottom {
+    font-family: 'Times New Roman', Times, serif;
+    color: rgba(22, 6, 6, 0.493);
+    font-size: 17px;
+    padding-left: 25px;
+}
+.footer-email {
+    font-family: 'Times New Roman', Times, serif;
+    color: rgba(22, 6, 6, 0.493);
+    font-size: 17px;
+    padding-left: 25px;
+}
