@@ -1,18 +1,21 @@
 html {
+    border: 2px solid green;
     font-size: 16px;
     font-family: 'Times New Roman', Times, serif;
     background-color: rgb(215, 192, 138);
+    
 }
 
 .websiteTitle {
     margin: 0;
     padding: 20px 0;
     border-bottom: 2px solid black;
-    font-size: 78px;
+    font-size: 5.75rem;
     text-shadow: 3px 3px 1px rgb(120, 114, 68);
     text-align: center;
 }
 
+/*
 .gif-wrap {
     width: 100%;
     display: flex;
@@ -29,26 +32,52 @@ html {
     display: block;
     padding-bottom: 40px;
 }
+*/
+.blogpost-container{
+    /*border: 2px solid rgb(0, 255, 251);*/
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+
+    
+}
+
+.blogpost-one {
+    border-top: 2px solid black;
+}
+.blogpost-two {
+    border-top: 2px solid black;
+}
+.blogpost-three {
+}
 
 
 footer {
+    /*border: 2px solid red;*/
     border-top: 2px solid black;
+    align-items: center;
 }
+    
 .footer-top {
     font-family: 'Times New Roman', Times, serif;
     color: rgba(22, 6, 6, 0.493);
     padding-left: 25px;
+    text-align: justify;
+    text-justify: auto;
 }
 .footer-bottom {
     font-family: 'Times New Roman', Times, serif;
     color: rgba(22, 6, 6, 0.493);
     font-size: 17px;
     padding-left: 25px;
+    text-align: justify;
+    text-justify: auto;
 }
 .footer-email {
     font-family: 'Times New Roman', Times, serif;
     color: rgba(22, 6, 6, 0.493);
     font-size: 17px;
     padding-left: 25px;
+    text-align: center;
 }
 
