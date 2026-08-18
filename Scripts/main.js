@@ -25,7 +25,8 @@ function openNav() {
   postOne.style.marginLeft = "250px";
   postTwo.style.marginLeft = "250px";
   postThree.style.marginLeft = "250px";
-  
+
+
 
 }
 
@@ -36,5 +37,6 @@ function closeNav() {
   postOne.style.marginLeft = "40px";
   postTwo.style.marginLeft = "40px";
   postThree.style.marginLeft = "40px";
+
 
 }

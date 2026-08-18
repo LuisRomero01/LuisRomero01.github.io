@@ -30,7 +30,7 @@ html {
 
 
 }
-.sidepanel ,.post-one, .all-posts {
+.sidepanel ,.post-one, .post-two, .post-three, .all-posts {
   padding: 8px 8px 8px 32px;
   text-decoration: none;
   font-size: 40px;
