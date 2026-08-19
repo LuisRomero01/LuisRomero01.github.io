@@ -31,13 +31,17 @@ html {
 
 }
 .sidepanel ,.post-one, .post-two, .post-three, .all-posts {
-  padding: 8px 8px 8px 32px;
+  padding: 8px 8px 8px 20px;
   text-decoration: none;
   font-size: 40px;
   color: #818181;
   display: block;
   transition: 0.5s;
-  margin-top: 40px;
+  margin-top: 80px;
+}
+
+.post-three{
+    font-size: 37.125px;
 }
 .sidepanel, .post-one:hover, .all-posts:hover {
   color: #f1f1f1;
