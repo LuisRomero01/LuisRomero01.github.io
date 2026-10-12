@@ -30,7 +30,7 @@ html {
 
 
 }
-.sidepanel ,.post-one, .post-two, .post-three, .all-posts {
+.sidepanel ,.post-one, .post-two, .post-three,.post-four, .all-posts {
   padding: 8px 8px 8px 20px;
   text-decoration: none;
   font-size: 40px;
@@ -97,6 +97,9 @@ html {
     
 }
 
+.blogpost-four,
+.blogpost-three,
+.blogpost-two ,
 .blogpost-one {
     border-top: 2px solid black;
     margin-left: 40px;
@@ -105,21 +108,7 @@ html {
     background-color: rgb(215, 192, 138);
     
 }
-.blogpost-two {
-    border-top: 2px solid black;
-    margin-left: 40px;
-    margin-right: 40px;
-    transition: 0.5s;
-    background-color: rgb(215, 192, 138);
 
-}
-.blogpost-three {
-    margin-left: 40px;
-    margin-right: 40px;
-    transition: 0.5s;
-    background-color: rgb(215, 192, 138);
-
-}
 
 
 footer {

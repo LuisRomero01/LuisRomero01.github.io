@@ -3,6 +3,7 @@ let closeButton = document.getElementById("close-button");
 let postOne = document.getElementById("blogPost-one");
 let postTwo = document.getElementById("blogPost-two");
 let postThree = document.getElementById("blogPost-three");
+let postFour = document.getElementById("blogPost-four")
 
 
 let flag = false;
@@ -25,6 +26,7 @@ function openNav() {
   postOne.style.marginLeft = "250px";
   postTwo.style.marginLeft = "250px";
   postThree.style.marginLeft = "250px";
+  postFour.style.marginLeft = "250px";
 
 
 
@@ -37,6 +39,6 @@ function closeNav() {
   postOne.style.marginLeft = "40px";
   postTwo.style.marginLeft = "40px";
   postThree.style.marginLeft = "40px";
-
+  postFour.style.marginLeft = "40px";
 
 }
